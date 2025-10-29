@@ -1,0 +1,7 @@
+main.c: In function ‘main’:
+main.c:18:21: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   18 |         printf ("%.3f", &dist);
+      |                  ~~~^   ~~~~~
+      |                     |   |
+      |                     |   float *
+      |                     double
