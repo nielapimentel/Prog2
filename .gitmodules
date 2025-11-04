@@ -1,0 +1,9 @@
+[submodule "Prog"]
+	path = Prog
+	url = https://github.com/prog-II-ufes/script-de-correcao.git
+[submodule "Prog2"]
+	path = Prog2
+	url = https://github.com/prog-II-ufes/script-de-correcao.git
+[submodule "script"]
+	path = script
+	url = https://github.com/prog-II-ufes/script-de-correcao.git
