@@ -1,0 +1,15 @@
+==48028== Memcheck, a memory error detector
+==48028== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==48028== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==48028== Command: Resultados/Daniela/main/prog Resultados/Daniela/main/Casos/1
+==48028== Parent PID: 48027
+==48028== 
+==48028== 
+==48028== HEAP SUMMARY:
+==48028==     in use at exit: 0 bytes in 0 blocks
+==48028==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==48028== 
+==48028== All heap blocks were freed -- no leaks are possible
+==48028== 
+==48028== For lists of detected and suppressed errors, rerun with: -s
+==48028== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
