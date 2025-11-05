@@ -1,15 +1,15 @@
-==13054== Memcheck, a memory error detector
-==13054== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==13054== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==13054== Command: Resultados/Daniela/utils/prog Resultados/Daniela/utils/Casos/1
-==13054== Parent PID: 13053
-==13054== 
-==13054== 
-==13054== HEAP SUMMARY:
-==13054==     in use at exit: 0 bytes in 0 blocks
-==13054==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==13054== 
-==13054== All heap blocks were freed -- no leaks are possible
-==13054== 
-==13054== For lists of detected and suppressed errors, rerun with: -s
-==13054== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==50447== Memcheck, a memory error detector
+==50447== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==50447== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==50447== Command: Resultados/Daniela/utils/prog Resultados/Daniela/utils/Casos/1
+==50447== Parent PID: 50446
+==50447== 
+==50447== 
+==50447== HEAP SUMMARY:
+==50447==     in use at exit: 0 bytes in 0 blocks
+==50447==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==50447== 
+==50447== All heap blocks were freed -- no leaks are possible
+==50447== 
+==50447== For lists of detected and suppressed errors, rerun with: -s
+==50447== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
