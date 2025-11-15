@@ -22,6 +22,8 @@ void cadastrarEvento(Evento* eventos, int* numEventos){
         *numEventos = *numEventos+1;
 
         printf("Evento cadastrado com sucesso!\n");
+    } else {
+        printf("Limite de eventos atingido!\n");
     }
 
 }
@@ -36,6 +38,8 @@ void exibirEventos(Evento* eventos, int* numEventos){
 
     if (*numEventos > 0){
         printf("Eventos cadastrados:\n");
+    } else {
+        printf("Nenhum evento cadastrado.\n");
     }
 
     for (int i=0; i<*numEventos; i++){
@@ -72,13 +76,15 @@ void trocarDataEvento(Evento* eventos, int* numEventos){
 void trocarIndicesEventos(Evento* eventos, int* indiceA, int* indiceB, int* numEventos){
     //*numEventos esta fora do array, como eu nao aumentei o indice, o evento nunca vai ser alcancado pelos for's
     
-    if (indiceA >= *numEventos || indiceB >= *numEventos){
-        printf("Indices invalidos!\n");
-    } else {
+    if (*indiceA < *numEventos && *indiceB < *numEventos){
         eventos[*numEventos] = eventos[*indiceA];
         eventos[*indiceA] = eventos[*indiceB];
         eventos[*indiceB] = eventos[*numEventos];
+        //printf("INDICES: %d %d %d\n", *indiceA, *indiceB, *numEventos);
         printf("Eventos trocados com sucesso!\n");
+    } else {
+       // printf("INDICES: %d %d %d\n", *indiceA, *indiceB, *numEventos);
+        printf("Indices invalidos!\n");
     }
 
 

@@ -20,5 +20,5 @@ Eventos cadastrados:
 1 - Corrida - 29/6/2021
 2 - Inauguracao - 9/9/2009
 Indices invalidos!
-Indices invalidos!
+Eventos trocados com sucesso!
 Saindo...
