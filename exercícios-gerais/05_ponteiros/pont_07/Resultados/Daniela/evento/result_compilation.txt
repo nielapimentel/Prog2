@@ -1,0 +1,7 @@
+evento.c: In function ‘trocarIndicesEventos’:
+evento.c:75:17: warning: comparison between pointer and integer
+   75 |     if (indiceA >= *numEventos || indiceB >= *numEventos){
+      |                 ^~
+evento.c:75:43: warning: comparison between pointer and integer
+   75 |     if (indiceA >= *numEventos || indiceB >= *numEventos){
+      |                                           ^~
