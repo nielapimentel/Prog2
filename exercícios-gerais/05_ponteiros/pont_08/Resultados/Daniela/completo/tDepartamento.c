@@ -24,9 +24,6 @@ tDepartamento CriaDepartamento( char *curso1, char *curso2, char *curso3,
     strcpy(d.diretor, diretor);
     strcpy(d.nome, nome);
 
-    // if (d.m1<0 || d.m2<0 || d.m3<0){
-    //     printf("Digite um departamento com médias válidas\n");
-    // }
     d.m1 = m1;
     d.m2 = m2;
     d.m3 = m3;
