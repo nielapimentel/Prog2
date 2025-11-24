@@ -29,11 +29,12 @@ int main() {
             case 3:
                 trocarDataEvento(eventos, &numEventos);
                 break;
-            case 4:
+            case 4: {
                 int indiceA, indiceB;
                 scanf("%d %d", &indiceA, &indiceB);
                 trocarIndicesEventos(eventos, &indiceA, &indiceB, &numEventos);
                 break;
+            }
             case 5:
                 printf("Saindo...\n");
                 break;
